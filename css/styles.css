@@ -29,7 +29,7 @@ hr{
   border-bottom: none;
   border-width: 10px;
   width: 5%;
-  color: #bac7a7;
+  color: #11999E;
   margin-top: 70px;
 }
 
@@ -81,11 +81,12 @@ margin: 50px auto 50px auto;
   padding: 100px;
 
 }
-.top-cloud {position:absolute; right: 180px;
-  top: 70px;
+.top-cloud {position:absolute; right: 120px;
+  top: 60px;
   width: 15%;
 }
-.swipe {position:relative; bottom: 80px;
+.swipe {position:absolute; right: 120px;
+  bottom: 60px;
   width: 10%;
 }
 
@@ -98,7 +99,6 @@ margin: 50px auto 50px auto;
 
 
 }
-
 
 .bottom-cloud
 {position: absolute;bottom: 300px;
@@ -227,7 +227,8 @@ section:before{
   mix-blend-mode: color;
 }
 video {object-fit: cover;
-height: 100vh;}
+height: 100%;
+width: 100%;}
 
 h1 span {
   display: inline-block;
