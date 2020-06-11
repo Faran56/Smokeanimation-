@@ -41,6 +41,12 @@ a:hover{
   color: #EAF6F6;
 }
 
+#dateDiv{
+  text-align: right;
+  background-color: Black;
+  color: White;
+}
+
 .p-postioning {
   margin-top: auto;
   font-weight: normal;
@@ -171,7 +177,7 @@ margin-left: 30px;
   margin-bottom: 20px;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #11999E 5%, #599bb3 100%);
+	background:linear-gradient(to right, #f00,#0f0,#00f,#0ff);
 
 }
 .myButton:active {
@@ -179,14 +185,25 @@ margin-left: 30px;
 	top:1px;
 }
 
+.credits{
+  background-color: white;
+  margin-top: 0;
+}
+
 
 
 /* contact html styling starts here */
 
 
-.contact-card
+.contact-me
 {border-radius: 20px;}
 
+.facebook {
+  margin-left: 20px;
+}
+.instagram {
+  margin-right: 20px;
+}
 
 
 /* contact html styling starts here */
@@ -202,7 +219,7 @@ section{
 h1{
   color: #66BFBF;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Bad Script', cursive;
   font-weight: bold;
   font-size: 5.625rem;
   margin: 0;
@@ -232,7 +249,7 @@ width: 100%;}
 
 h1 span {
   display: inline-block;
-  animation: animate 1s linear infinite;
+  animation: animate 7s linear infinite;
 }
 
 
