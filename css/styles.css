@@ -232,7 +232,7 @@ width: 100%;}
 
 h1 span {
   display: inline-block;
-  animation: animate 1s linear forwards;
+  animation: animate 1s linear infinite;
 }
 
 
